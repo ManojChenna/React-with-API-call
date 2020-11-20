@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+class App extends React.Component {
+  render() {
+    return <div>Test runnning</div>;
+  }
+}
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
+ReactDOM.render( <App />, document.getElementById("root"));
+  
